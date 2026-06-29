@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pelaporan Dugaan Pelanggaran PEMIRA 2026 — BAWASRA UNTARA</title>
+<meta name="description" content="Formulir resmi pengaduan dugaan pelanggaran PEMIRA 2026, Badan Pengawas Pemilihan Raya, Universitas Tangerang Raya.">
+<link rel="icon" href="assets/logo-bawasra.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <img class="logo-img" src="assets/logo-bawasra.jpg" alt="Logo BAWASRA">
+      <img class="logo-img" src="assets/logo-untara.png" alt="Logo Universitas Tangerang Raya">
+      <div class="brand-text">
+        <p class="brand-eyebrow">Badan Pengawas Pemilihan Raya</p>
+        <p class="brand-name">BAWASRA &mdash; Universitas Tangerang Raya</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="masthead">
+    <div class="masthead-inner">
+      <span class="eyebrow-tag">Formulir Resmi &middot; PEMIRA 2026</span>
+      <h1>Pelaporan Dugaan Pelanggaran PEMIRA 2026</h1>
+      <p class="lede-greeting">Halo Sobat UNTARA!</p>
+      <p class="lede">
+        BAWASRA UNTARA membuka layanan pelaporan dugaan pelanggaran selama pelaksanaan PEMIRA 2026 berlangsung.
+        Apabila Anda menemukan, mengetahui, atau mengalami adanya dugaan pelanggaran selama tahapan PEMIRA,
+        silakan sampaikan laporan melalui formulir ini dengan mengisi informasi yang benar serta melampirkan
+        bukti pendukung yang relevan. Mari bersama mengawal PEMIRA yang jujur, adil, transparan, dan berintegritas.
+      </p>
+      <ul class="assurance-pills">
+        <li>Kerahasiaan identitas dijaga</li>
+        <li>Tercatat otomatis dengan ID unik</li>
+        <li>Ditindaklanjuti langsung oleh BAWASRA</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="info-section">
+    <div class="info-grid">
+      <div class="info-card">
+        <p class="info-card-eyebrow">Sebelum Anda melapor</p>
+        <h2>Mekanisme Penanganan Laporan</h2>
+        <ol class="mechanism-list">
+          <li>Laporan diterima oleh BAWASRA UNTARA melalui sistem pengaduan ini.</li>
+          <li>BAWASRA melakukan pemeriksaan kelengkapan administrasi laporan.</li>
+          <li>Laporan yang memenuhi syarat akan diregistrasi dan diproses lebih lanjut.</li>
+          <li>Pelapor dapat dihubungi untuk proses klarifikasi apabila diperlukan.</li>
+          <li>Hasil penanganan laporan akan ditindaklanjuti sesuai ketentuan yang berlaku.</li>
+        </ol>
+      </div>
+      <div class="info-card info-card-seal">
+        <p class="info-card-eyebrow">Komitmen kami</p>
+        <h2>Kerahasiaan Pelapor</h2>
+        <p>
+          BAWASRA UNTARA berkomitmen menjaga kerahasiaan identitas pelapor serta menggunakan seluruh
+          informasi yang diberikan hanya untuk kepentingan penanganan dugaan pelanggaran PEMIRA 2026.
+          Data laporan tidak dapat diakses oleh pelapor lain maupun publik.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="form-section" id="form-section">
+    <form id="pengaduan-form" novalidate>
+
+      <fieldset>
+        <legend><span class="legend-tag">Bagian 1</span> Identitas Pelapor</legend>
+        <p class="fieldset-note">Identitas Anda hanya digunakan untuk keperluan verifikasi dan komunikasi tindak lanjut, dan tidak akan dipublikasikan maupun diberikan kepada pihak yang dilaporkan.</p>
+
+        <div class="field">
+          <label for="namaPelapor">Nama lengkap <span class="req">*</span></label>
+          <input type="text" id="namaPelapor" name="namaPelapor" required autocomplete="name">
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="nim">NIM <span class="req">*</span></label>
+            <input type="text" id="nim" name="nim" required inputmode="numeric">
+          </div>
+          <div class="field">
+            <label for="prodiPelapor">Program studi / Fakultas <span class="req">*</span></label>
+            <input type="text" id="prodiPelapor" name="prodiPelapor" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="kontak">Nomor WhatsApp aktif <span class="req">*</span></label>
+          <input type="tel" id="kontak" name="kontak" required placeholder="contoh: 08xxxxxxxxxx">
+          <p class="field-hint">Digunakan BAWASRA untuk menghubungi Anda apabila diperlukan klarifikasi lebih lanjut.</p>
+        </div>
+
+        <div class="field">
+          <label for="ktmInput">Unggah Kartu Tanda Mahasiswa (KTM) <span class="req">*</span></label>
+          <label for="ktmInput" class="file-drop-label">
+            <input type="file" id="ktmInput" accept="image/*,.pdf">
+            <span class="file-drop-cta">Pilih file KTM (foto/scan, maks. 10 MB)</span>
+          </label>
+          <ul class="file-list" id="ktm-list"></ul>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="legend-tag">Bagian 2</span> Identitas Terlapor</legend>
+
+        <div class="field">
+          <label for="namaTerlapor">Nama terlapor</label>
+          <input type="text" id="namaTerlapor" name="namaTerlapor" placeholder="Jika tidak diketahui, boleh dikosongkan">
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="statusTerlapor">Status terlapor</label>
+            <select id="statusTerlapor" name="statusTerlapor">
+              <option value="" disabled selected>Pilih status</option>
+              <option>Calon Ketua</option>
+              <option>Calon Wakil Ketua</option>
+              <option>Tim Sukses</option>
+              <option>Mahasiswa</option>
+              <option>Lainnya</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="prodiTerlapor">Program studi / Fakultas terlapor</label>
+            <input type="text" id="prodiTerlapor" name="prodiTerlapor" placeholder="Jika diketahui">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="legend-tag">Bagian 3</span> Informasi Dugaan Pelanggaran</legend>
+
+        <div class="field">
+          <label for="jenisPelanggaran">Jenis dugaan pelanggaran <span class="req">*</span></label>
+          <select id="jenisPelanggaran" name="jenisPelanggaran" required>
+            <option value="" disabled selected>Pilih jenis pelanggaran</option>
+            <option>Kampanye di luar jadwal/ketentuan</option>
+            <option>Politik uang / pemberian imbalan</option>
+            <option>Intimidasi atau ancaman kepada pemilih/pelapor</option>
+            <option>Penyalahgunaan fasilitas atau dana kampus</option>
+            <option>Pelanggaran Alat Peraga Kampanye (APK)</option>
+            <option>Kecurangan dalam pemungutan/penghitungan suara</option>
+            <option>Ketidaknetralan panitia/penyelenggara PEMIRA</option>
+            <option>Penyebaran informasi/kampanye hitam</option>
+            <option>Lainnya</option>
+          </select>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="tanggalKejadian">Tanggal kejadian</label>
+            <input type="date" id="tanggalKejadian" name="tanggalKejadian">
+          </div>
+          <div class="field">
+            <label for="waktuKejadian">Waktu kejadian</label>
+            <input type="time" id="waktuKejadian" name="waktuKejadian">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="lokasiKejadian">Lokasi kejadian</label>
+          <input type="text" id="lokasiKejadian" name="lokasiKejadian">
+        </div>
+
+        <div class="field">
+          <label for="kronologi">Uraian / kronologi kejadian <span class="req">*</span></label>
+          <textarea id="kronologi" name="kronologi" rows="6" required placeholder="Jelaskan kejadian secara rinci: apa, kapan, di mana, siapa yang terlibat, dan bagaimana kejadian berlangsung."></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="legend-tag">Bagian 4</span> Bukti dan Saksi</legend>
+
+        <div class="field">
+          <span class="radio-group-label">Apakah terdapat saksi?</span>
+          <div class="radio-group">
+            <label class="radio-field"><input type="radio" name="adaSaksi" value="Ya" id="saksiYa"> <span>Ya</span></label>
+            <label class="radio-field"><input type="radio" name="adaSaksi" value="Tidak" id="saksiTidak"> <span>Tidak</span></label>
+          </div>
+        </div>
+
+        <div class="field-row saksi-detail" id="saksi-detail" hidden>
+          <div class="field">
+            <label for="namaSaksi">Nama saksi</label>
+            <input type="text" id="namaSaksi" name="namaSaksi">
+          </div>
+          <div class="field">
+            <label for="kontakSaksi">Nomor kontak saksi</label>
+            <input type="tel" id="kontakSaksi" name="kontakSaksi">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="fileInput">Unggah bukti pendukung (foto, video, screenshot, dokumen)</label>
+          <label for="fileInput" class="file-drop-label">
+            <input type="file" id="fileInput" multiple accept="image/*,video/*,.pdf,.doc,.docx">
+            <span class="file-drop-cta">Pilih atau seret file di sini</span>
+          </label>
+          <ul class="file-list" id="file-list"></ul>
+          <p class="field-hint" id="file-hint">Setiap file maksimal 10&nbsp;MB, total maksimal 25&nbsp;MB.</p>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="legend-tag">Bagian 5</span> Pernyataan Pelapor</legend>
+
+        <label class="checkbox-field">
+          <input type="checkbox" id="pernyataanBenar" name="pernyataanBenar" required>
+          <span>Saya menyatakan bahwa seluruh informasi yang saya sampaikan dalam laporan ini adalah benar dan dapat dipertanggungjawabkan.</span>
+        </label>
+
+        <label class="checkbox-field">
+          <input type="checkbox" id="pernyataanBersedia" name="pernyataanBersedia" required>
+          <span>Saya bersedia dihubungi oleh BAWASRA UNTARA untuk proses klarifikasi atau tindak lanjut laporan apabila diperlukan.</span>
+        </label>
+
+        <p class="form-error" id="form-error" role="alert" hidden></p>
+
+        <button type="submit" class="btn-primary" id="submit-btn">Kirim Laporan</button>
+      </fieldset>
+
+    </form>
+  </section>
+
+  <section class="confirmation-section" id="confirmation-section" hidden>
+    <div class="receipt-card">
+      <div class="seal" aria-hidden="true">BAWASRA<br>UNTARA</div>
+      <h2>Laporan Berhasil Dikirim</h2>
+      <p class="receipt-label">ID Laporan</p>
+      <p class="report-id" id="report-id">&mdash;</p>
+      <p class="receipt-label">Waktu Pengiriman</p>
+      <p class="report-time" id="report-time">&mdash;</p>
+      <p class="receipt-note">
+        Simpan ID Laporan ini sebagai bukti pengiriman. BAWASRA akan menghubungi Anda melalui kontak yang
+        diberikan apabila diperlukan klarifikasi lebih lanjut.
+      </p>
+      <button type="button" class="btn-secondary" id="new-report-btn">Kirim Laporan Lain</button>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Email resmi: <a href="mailto:untarabawaslu@gmail.com">untarabawaslu@gmail.com</a></p>
+  <p>WhatsApp administrator: <a href="https://wa.me/6281011383178">0881-011-383178</a></p>
+  <p class="footer-disclaimer">Seluruh data dan dokumen yang Anda kirimkan hanya digunakan untuk kepentingan verifikasi, klarifikasi, pemeriksaan, dan tindak lanjut dugaan pelanggaran PEMIRA 2026 oleh BAWASRA Universitas Tangerang Raya.</p>
+</footer>
+
+<div class="loading-overlay" id="loading-overlay" hidden>
+  <div class="spinner" aria-hidden="true"></div>
+  <p>Mengirim laporan, mohon tunggu&hellip;</p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
